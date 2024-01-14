@@ -3,33 +3,28 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 'vantuan.nguyen@lqdtu.edu.vn',
+    href: 'mailto:vantuan.nguyen@lqdtu.edu.vn',
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/gkos',
-    href: 'https://www.linkedin.com/in/gkos/',
+    link: 'linkedin.com/in/vantuannguyenlqd',
+    href: 'www.linkedin.com/in/vantuannguyenlqd',
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
+    link: 'github.com/dino-chiio',
+    href: 'https://github.com/dino-chiio',
   },
   {
     social: 'Google Scholar',
-    link: 'scholar.google.com/<gkos>',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
-  },
-  {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    link: 'scholar.google.com/<vantuannguyen>',
+    href: 'https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AH70aAXdHGg12b__q8akBRQpP-IpDEJmyBpm_733CAfN6TMb8fhZMYdQj11KMb6TGwgLdUN1b3bedcWICJnIkA&user=XfHi20YAAAAJ',
   },
   {
     social: 'Website',
-    link: 'gkos.dev',
-    href: 'https://gkos.dev',
+    link: 'dino-chiio.dev',
+    href: 'https://dino-chiio.dev',
   },
 ];
 
@@ -40,7 +35,7 @@ const ContactCode = () => {
        tag: <a>production</a>
         </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
+        <span>Tuan</span>&#58;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;

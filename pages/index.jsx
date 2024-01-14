@@ -13,15 +13,15 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Kostas Georgiou</h1>
-            <h6 className={styles.bio}>Computer Vision Researcher</h6>
+            <h1 className={styles.name}>Nguyen Van Tuan</h1>
+            <h6 className={styles.bio}>AI Researcher; Cyber Security; Anomaly Detection;</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
                   <h4>Skill Set</h4>
                   <div className={styles.tags}>
-                    <span key='Research' className='Research'>
-                      Research
+                    <span key='AI-Research' className='AI-Research'>
+                      AI-Research
                     </span>
                     <span key='PyTorch' className='PyTorch'>
                       PyTorch
@@ -29,29 +29,17 @@ export default function HomePage() {
                     <span key='Tensorflow' className='Tensorflow'>
                       Tensorflow
                     </span>
-                    <span key='Apache-Spark' className='Apache-Spark'>
-                      Apache-Spark
+                    <span key='BigData' className='BigData'>
+                      BigData Pipelines
                     </span>
-                    <span key='SQL' className='SQL'>
-                      SQL
+                    <span key='Anomaly-Detection' className='Anomaly-Detection'>
+                      Anomaly-Detection
                     </span>
-                    <span key='Computer-Vision' className='Computer-Vision'>
-                      Computer-Vision
-                    </span>
-                    <span key='Data-Pipelines' className='Data-Pipelines'>
-                      Data-Pipelines
+                    <span key='Cyber-Security' className='Cyber-Security'>
+                      Cyber-Security
                     </span>
                     <span key='MLOps' className='MLOps'>
                       MLOps
-                    </span>
-                    <span key='Software-Design' className='Software-Design'>
-                      Software-Design
-                    </span>
-                    <span key='Bots' className='Bots'>
-                      Bots
-                    </span>
-                    <span key='APIs' className='APIs'>
-                      APIs
                     </span>
                   </div>
                 </div>
@@ -72,10 +60,10 @@ export default function HomePage() {
             <div className={styles.picture_boader}>
               <Image
                 className={styles.picture}
-                src="/me.jpeg"
+                src="/me.jpg"
                 width={300}
                 height={290}
-                alt="Kostas' Picture"
+                alt="Tuan's Picture"
               />
             </div>
 
