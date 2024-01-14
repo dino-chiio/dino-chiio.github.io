@@ -1,6 +1,5 @@
 module.exports = {
-  output: 'export',
-    images: {
+  images: {
     unoptimized: true,
     domains: [
       'res.cloudinary.com',
