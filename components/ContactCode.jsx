@@ -9,7 +9,7 @@ const contactItems = [
   {
     social: 'LinkedIn',
     link: 'linkedin.com/in/vantuannguyenlqd',
-    href: 'www.linkedin.com/in/vantuannguyenlqd',
+    href: 'https://www.linkedin.com/in/vantuannguyenlqd',
   },
   {
     social: 'GitHub',

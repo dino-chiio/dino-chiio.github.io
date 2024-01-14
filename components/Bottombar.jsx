@@ -12,7 +12,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/drkostas/drkostas.github.io"
+          href="https://github.com/dino-chiio/dino-chiio.github.io"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -28,19 +28,19 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <a href="https://www.linkedin.com/in/gkos/" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/vantuannguyenlqd" target="_blank" rel="noopener">
           <div className={styles.section}>
             <LinkedinIcon className={styles.icon} />
             <p>Linkedin</p>
           </div>
         </a>
-        <a href="https://github.com/drkostas" target="_blank" rel="noopener">
+        <a href="https://github.com/dino-chiio" target="_blank" rel="noopener">
           <div className={styles.section}>
             <GithubIcon className={styles.icon} />
             <p>Github</p>
           </div>
         </a>
-        <a href="https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra" target="_blank" rel="noopener">
+        <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AH70aAXdHGg12b__q8akBRQpP-IpDEJmyBpm_733CAfN6TMb8fhZMYdQj11KMb6TGwgLdUN1b3bedcWICJnIkA&user=XfHi20YAAAAJ" target="_blank" rel="noopener">
           <div className={styles.section}>
             <ScholarIcon className={styles.icon} />
             <p>Scholar</p>

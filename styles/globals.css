@@ -15,10 +15,16 @@
 .PyTorch:hover {
   background: rgba(238, 89, 3, 0.25);
 }
-.OpenCV {
+.Fine-tuning {
   border: 0.1rem solid rgb(50, 85, 213);
 }
-.OpenCV:hover {
+.Fine-tuning:hover {
+  background: rgba(50, 85, 213, 0.25);
+}
+.BLIP {
+  border: 0.1rem solid rgb(138, 141, 151);
+}
+.BLIP:hover {
   background: rgba(50, 85, 213, 0.25);
 }
 .SegFormer {
