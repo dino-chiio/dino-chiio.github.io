@@ -77,8 +77,12 @@ export async function getStaticProps() {
     }
   );
   let repos = await repoRes.json();
-  repos = repos
-    .sort((a, b) => {
+  if (!Array.isArray(repos)) {
+    console.error('Failed to fetch repositories');
+    repos = [];
+  }
+  else {
+    repos = repos.sort((a, b) => {
       if (a.html_url.includes('EESTech') || a.html_url.includes('COSC')) {
         return b
       }
@@ -89,6 +93,8 @@ export async function getStaticProps() {
       return (b.stargazers_count + b.watchers_count + b.forks_count) - (a.stargazers_count + a.watchers_count + a.forks_count)
     })
     .slice(0, 8);
+  }
+  
 
   return {
     props: { title: 'GitHub', repos, user },
